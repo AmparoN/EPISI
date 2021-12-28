@@ -1973,9 +1973,21 @@ pre code {
   clear: both;
 }
 
-.row {
+.row1 {
   margin-left: -15px;
   margin-right: -15px;
+  display: flex;
+  flex-wrap:wrap;
+}
+.row1:before, .row:after {
+  content: " ";
+  display: table;
+}
+.row1:after {
+  clear: both;
+}
+
+.row {
   display: flex;
   flex-wrap:wrap;
 }
@@ -2447,12 +2459,12 @@ pre code {
   .col-md-card {
     width: 30%;
     position: relative;
-    left:248px;
+    left:210px;
   }
   .col-md-scard {
     width: 30%;
     position: relative;
-    left:290px;
+    left:240px;
   }
   .col-let-1{
     width: 100px;
