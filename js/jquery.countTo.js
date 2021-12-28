@@ -9,7 +9,7 @@
         // Browser globals
         factory(jQuery);
     }
-}(function ($) {
+}(function ($) { 
   var CountTo = function (element, options) {
     this.$element = $(element);
     this.options  = $.extend({}, CountTo.DEFAULTS, this.dataOptions(), options);

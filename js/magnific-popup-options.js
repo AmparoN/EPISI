@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  // MagnificPopup
+  // MagnificPopup 
 	var magnifPopup = function() {
 		$('.image-popup').magnificPopup({
 			type: 'image',
