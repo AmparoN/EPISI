@@ -12,7 +12,7 @@
 /*
  Use the following CSS code if you want to have a class per icon.
  Instead of a list of all class selectors, you can use the generic [class*="icon-"] selector, but it's slower:
-*/ 
+*/
 .icon-user,
 .icon-people,
 .icon-user-female,
@@ -212,9 +212,6 @@
 }
 .icon-people:before {
   content: "\e001";
-  position: relative;
-  font-size: 40px;
-  top: 10px;
 }
 .icon-user-female:before {
   content: "\e000";
@@ -329,9 +326,6 @@
 }
 .icon-notebook:before {
   content: "\e013";
-  position: relative;
-  font-size: 30px;
-  top: 10px;
 }
 .icon-mustache:before {
   content: "\e014";
@@ -716,9 +710,6 @@
 }
 .icon-social-facebook:before {
   content: "\e00b";
-  position: relative;
-  top: 1000px;
-
 }
 .icon-social-instagram:before {
   content: "\e609";
